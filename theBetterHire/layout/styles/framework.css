@@ -45,11 +45,8 @@ a{outline:none; text-decoration:none;}
 img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
 .imgl{margin:0 15px 10px 0; clear:left;}
 .imglq{margin:0 15px 10px 0; clear:left; width: 215px; height: 250px; float: left;}
-.imglj{margin:0 15px 10px 0; clear:left; width: 320px; height: 130px; float: left;}
 .imgr{margin:0 0 10px 15px; clear:right;}
 .imgrq{margin:0 0 10px 15px; clear:right; width: 245px; height: 260px; float: right;}
-.imgrj{margin:0 0 10px 15px; clear:right; width: 230px; height: 250px; float: right;}
-.TBHlogo{height: 40px; width: 40px;}
 
 
 /* Fonts
