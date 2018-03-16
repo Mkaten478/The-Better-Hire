@@ -74,7 +74,10 @@ File: Layout CSS
 #comments input[type="submit"], #comments input[type="reset"]{display:inline-block; width:auto; min-width:150px; margin:0; padding:8px 5px; cursor:pointer;}
 
 /* Sidebar */
-.container .sidebar{}
+.container .sidebar{
+	position: sticky;
+	top: 10px;
+}
 
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
@@ -172,6 +175,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 .sidebar nav ul ul a::after{left:25px;}
 .sidebar nav ul ul ul a{padding-left:55px;}
 .sidebar nav ul ul ul a::after{left:45px;}
+.sidebar select {display: none}
 
 /* Pagination */
 .pagination{display:block; width:100%; text-align:center; clear:both;}
@@ -335,6 +339,13 @@ table a, #comments a{background-color:inherit;}
 	.container{padding-bottom:50px;}
 	#info{padding-bottom:50px;}
 	#footer{padding-bottom:20px;}
+
+	/* DROPDOWN SIDEBAR */
+	.sidebar { padding-bottom: 5px; top: 0px !important; background-color: rgb(255, 255, 255);}
+	.sidebar ul{display: none}
+	.sidebar select{display: inline-block;}
+	.sidebar h6 {margin: 0px;}
+	.sidebar nav {display: none;}
 }
 
 @media screen and (min-width:180px) and (max-width:900px) {
@@ -349,6 +360,10 @@ table a, #comments a{background-color:inherit;}
 	#mainav{}
 	#mainav ul{display:none;}
 	#mainav form{display:block;}
+
+	/* .sidebar { padding-bottom: 5px; top: 0px !important; background-color: rgb(255, 255, 255);}
+	.sidebar ul{display: none}
+	.sidebar select{display: inline-block;} */
 
 	#breadcrumb{}
 
